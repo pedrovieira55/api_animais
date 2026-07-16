@@ -1,0 +1,18 @@
+<!DOCKTYPE html> 
+<html lang="pt-br">
+<head> 
+
+      <meta charset="UTF-8">
+      <title> Animais </title>
+</head>
+<body>
+
+       <h1> Telinha </h1>
+       <button onclick="funcaoPing()"> Ping! </button>
+       
+       <script src=".../backend/src/service"></script>
+
+  </body>
+
+ </html>
+       
