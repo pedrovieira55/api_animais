@@ -5,7 +5,7 @@ const router = Router();
 
 router.get("/animais", animalController.getAll);
 router.get("/animais/:id", animalController.get);
-router.post("/animais", animalController.create);
+router.post("/animais", animalController.createAnimal);
 router.put("/animais/:id", animalController.update);
 router.patch("/animais/:id", animalController.patch);
 router.delete("/animais/:id", animalController.delete);

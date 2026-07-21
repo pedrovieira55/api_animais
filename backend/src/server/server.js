@@ -1,5 +1,5 @@
 import express from "express";
-import animalRoutes from "../routes/animalRoutes";
+import animalRoutes from "../routes/animalRoutes.js";
 
  const app = express();
  const PORT = process.env.PORT || 3000;
